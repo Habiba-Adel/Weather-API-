@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- making the design responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Forecast</h1>
+    
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name (e.g., London, Paris)" autocomplete="off" />
+      <button id="searchBtn">Search</button>
+    </div>
+<!-- good UX so user knows request is in progress.-->
+    <div id="loading" class="loading hidden">Loading...</div>
+    
+    <div id="error" class="error hidden"></div>
+
+    <div id="weatherCard" class="weather-card hidden">
+      <h2 id="cityName"></h2>
+      <p id="date"></p>
+      
+      <div class="weather-main">
+        <img id="weatherIcon" src="./7682560.png" alt="Weather icon" />
+        <div class="temperature" id="temperature"></div>
+        <div class="description" id="description"></div>
+      </div>
+
+      <div class="details">
+        <div class="detail-item">
+          <!-- the difference between the span and the p that the p is block line by default and the span is inline -->
+          <span>Humidity</span>
+          <span id="humidity"></span>
+        </div>
+        <div class="detail-item">
+          <span>Wind Speed</span>
+          <span id="wind"></span>
+        </div>
+        <div class="detail-item">
+          <span>Feels Like</span>
+          <span id="feelsLike"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
