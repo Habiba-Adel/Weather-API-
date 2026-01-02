@@ -67,7 +67,6 @@ Weather-API/
 │  ├─ index.html         # Frontend interface
 │  ├─ style.css          # Styles
 │  ├─ script.js          # JavaScript logic
-│  └─ weather-icons/     # Optional folder for local weather icons
 │
 ├─ package.json
 ├─ package-lock.json
@@ -89,7 +88,7 @@ cd Weather-API
 npm install
 ```
 
-### 3️⃣ Create a `.env` file in `backend/`
+### 3️⃣ Create a `.env` file in `backend/` (in production this thing mustnot be uploaded in github like that but cause this project is for learning)
 ```env
 WEATHER_API_KEY=your_visual_crossing_api_key
 REDIS_URL=redis://localhost:6379
@@ -136,21 +135,6 @@ Open `frontend/index.html` in your browser, search for any city, and enjoy real-
   - 💧 Humidity
   - 💨 Wind speed
   - 🤔 Feels like
-- ✅ Optional: Local weather icons or use OpenWeatherMap icons dynamically
-
----
-
-## 🔮 Future Enhancements
-
-- 🔄 Add unit switching (Celsius/Fahrenheit)
-- 📅 Add forecast for multiple days
-- 🚦 Integrate rate-limiting to prevent API abuse
-- ☁️ Deploy backend to cloud server (Heroku, Railway, etc.)
-- 🔐 Add authentication for API usage
-- 🐳 Create Dockerized version for easy deployment
-- 🗺️ Add geolocation support to auto-detect user's city
-- 📊 Weather history and trends
-- 🌙 Dark mode support
 
 ---
 
@@ -173,8 +157,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 <div align="center">
 
-**Made with ❤️ by Habiba**
-
-⭐ **If you like this project, please give it a star!** ⭐
+**Made with ❤️ by me**
 
 </div>
