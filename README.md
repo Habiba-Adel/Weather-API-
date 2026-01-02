@@ -10,10 +10,9 @@ Perfect for learning **3rd-party API integration**, **caching**, **environment v
 
 Watch a quick demo of the Weather API in action (no audio):
 
-[Watch the Demo]([https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1uIa2J2Tpvryom0kyQlriNMzFAoiW3nKH/view?usp=sharing))
+[Watch the Demo](https://drive.google.com/file/d/1uIa2J2Tpvryom0kyQlriNMzFAoiW3nKH/view?usp=sharing)
 
-Click the image or the link to view the demo in Google Drive.
-
+Click the link above to view the demo in Google Drive.
 
 ---
 
